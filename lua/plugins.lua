@@ -22,8 +22,11 @@ Plug 'https://gitlab.com/gitlab-org/editor-extensions/gitlab.vim.git'
 Plug 'OmniSharp/omnisharp-vim'
 Plug 'echasnovski/mini.clue'
 Plug 'nicwest/vim-http'
+Plug 'mechatroner/rainbow_csv'
+Plug 'tpope/vim-abolish'
 
 call('plug#end')
+
 
 local function discarding_plug_update()
   local dirties = {}
