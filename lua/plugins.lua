@@ -16,14 +16,14 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'nordtheme/vim'
 Plug ('neoclide/coc.nvim', {['branch'] = 'release'})
 Plug 'nvim-lua/plenary.nvim'
-Plug ('nvim-telescope/telescope.nvim', {['tag'] = '0.1.5'})
+Plug 'nvim-telescope/telescope.nvim'
 Plug 'lewis6991/gitsigns.nvim'
-Plug 'https://gitlab.com/gitlab-org/editor-extensions/gitlab.vim.git'
 Plug 'OmniSharp/omnisharp-vim'
 Plug 'echasnovski/mini.clue'
 Plug 'nicwest/vim-http'
 Plug 'mechatroner/rainbow_csv'
 Plug 'tpope/vim-abolish'
+Plug 'CopilotC-Nvim/CopilotChat.nvim'
 
 call('plug#end')
 

@@ -1,12 +1,9 @@
 {
-  "languageserver": {
-    "csharp": {
-      "command": "csharp-ls",
-      "rootPatterns": [
-        "*.sln",
-        "git"
-      ],
-      "filetypes": ["cs", "csharp"]
+    "languageserver": {
+        "csharp-ls": {
+          "command": "csharp-ls",
+          "filetypes": ["cs"],
+          "rootPatterns": ["*.csproj", ".vim/", ".git/", ".hg/"]
+        }
     }
-  }
 }
